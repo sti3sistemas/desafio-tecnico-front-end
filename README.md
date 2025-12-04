@@ -13,17 +13,23 @@ Este repositório contém todas as instruções necessárias para a realização
 
 ## **Descrição do desafio**
 
-Este repositório já contém um projeto base configurado com:
+Você receberá um projeto base em React JS que implementa parcialmente um cadastro de Clientes e Produtos, este repositório já contém um projeto base configurado com:
 
 - React + Vite
 - Chakra UI
 - Linting e formatação
 - API mockada utilizando MSW
 
-O objetivo é ajustar, completar e implementar todas as telas seguindo exatamente:
+Esse projeto base contém falhas intencionais e pontos incompletos, tanto de código quanto visual, para que você possa:
 
-- O layout do Figma
-- O comportamento da versão publicada
+- Identificar problemas.
+- Corrigir o que estiver errado.
+- Implementar fielmente o layout sugerido
+- Implementar o que estiver faltando.
+- Melhorar o que considerar necessário.
+
+Não se trata apenas de “fazer funcionar”, mas de demonstrar qualidade de código, organização e boas decisões técnicas.
+
 
 ## **Figma**
 
@@ -74,10 +80,32 @@ A aplicação usa MSW (Mock Service Worker) para simular uma API real. Cada requ
 
 ## **Requisitos obrigatórios**
 
-Seu projeto deve ficar:
+O projeto inicial contém falhas propositalmente inseridas, que podem envolver, por exemplo:
 
+- Erros visuais
+- Falhas de mapeamento de campos de envio para API.
+- Problemas de lógica.
+- Componente e telas mal estruturadas.
+- Regras de negócio incorretas ou ausentes.
+- Validações inexistentes ou inconsistentes.
+- Endpoints incompletos ou retornos inadequados.
+
+Sua missão é:
+
+- Fazer o projeto compilar e executar corretamente.
+- Identificar e corrigir os problemas que comprometam:
+- A corretude da lógica.
+- A organização da solução.
+- A clareza e a manutenibilidade do código.
+- Melhorar onde considerar necessário, sem fugir do escopo do desafio.
+
+Seu projeto deve ficar:
 - **Visualmente idêntico** ao design do Figma
 - **Funcionalmente equivalente** ao projeto publicado
+
+  
+Sempre que achar relevante, você pode documentar suas decisões em um arquivo DECISOES_TECNICAS.md ou seção no próprio README.
+
 
 ### Funcionalidades obrigatórias
 
